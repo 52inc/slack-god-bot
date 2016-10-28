@@ -1,0 +1,33 @@
+{
+  "name": "slack-god-bot",
+  "version": "1.0.0",
+  "description": "Decides if the user rules or tools.",
+  "keywords": [
+    "Slack",
+    "bot",
+    "ranker"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zachcb/godbot"
+  },
+  "bugs": {
+    "url": "https://github.com/zachcb/godbot/issues"
+  },
+  "main": "lib/god-bot.js",
+  "scripts": {
+    "node bin/bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Zach B.",
+    "email": "zach@52inc.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^3.5.2",
+    "progress": "^1.1.8",
+    "request": "^2.76.0",
+    "slackbots": "^0.5.3"
+  }
+}
