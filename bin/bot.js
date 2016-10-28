@@ -2,7 +2,7 @@
 
 'use strict';
 
-import GodBot from '../lib/god-bot';
+const GodBot = require('../lib/god-bot');
 
 let token = process.env.BOT_API_KEY || require('../token');
 // let dbPath = process.env.BOT_DB_PATH;
